@@ -1,6 +1,6 @@
 # newsly
 
-A new Flutter project.
+A News Application aka NewsBazzar built usinf Flutter and Dart
 
 ## Getting Started
 
