@@ -21,11 +21,11 @@ class News {
           Article article = Article(
             title: element['title'],
             author: element['author'].toString(),
-            description: element['description'],
+            description: element['description'].toString(),
             urlToImage: element['urlToImage'],
             publshedAt: DateTime.parse(element['publishedAt']),
-            content: element["content"],
-            articleUrl: element["url"],
+            content: element["content"].toString(),
+            articleUrl: element["url"].toString(),
           );
           news.add(article);
         }
@@ -52,8 +52,8 @@ class NewsForCategorie {
           Article article = Article(
             title: element['title'],
             author: element['author'].toString(),
-            description: element['description'],
-            urlToImage: element['urlToImage'],
+            description: element['description'].toString(),
+            urlToImage: element['urlToImage'].toString(),
             publshedAt: DateTime.parse(element['publishedAt']),
             content: element["content"].toString(),
             articleUrl: element["url"].toString(),
