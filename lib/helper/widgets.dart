@@ -4,12 +4,13 @@ import 'package:newsly/views/article_view.dart';
 class NewsTile extends StatelessWidget {
   final String imgUrl, title, desc, content, posturl;
 
-  NewsTile(
-      {required this.imgUrl,
-      required this.desc,
-      required this.title,
-      required this.content,
-      required this.posturl});
+  NewsTile({
+    required this.imgUrl,
+    required this.desc,
+    required this.title,
+    required this.content,
+    required this.posturl,
+  });
 
   @override
   Widget build(BuildContext context) {
